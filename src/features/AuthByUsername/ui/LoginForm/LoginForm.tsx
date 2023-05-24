@@ -3,9 +3,9 @@ import { useTranslation } from "react-i18next";
 import { Button, ButtonTheme } from "shared/ui/Button/Button";
 import { Input } from "shared/ui/Input/Input";
 import { useDispatch } from "react-redux";
-import cls from "./LoginForm.module.scss";
 import { memo, useCallback } from "react";
 import { loginActions } from "features/AuthByUsername/model/slice/loginSlice";
+import cls from "./LoginForm.module.scss";
 
 interface LoginFormProps {
   className?: string;
