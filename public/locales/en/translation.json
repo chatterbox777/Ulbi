@@ -16,5 +16,6 @@
   "increment": "increment",
   "decrement": "decrement",
   "Введите username": "Введите username",
-  "Введите пароль": "Введите пароль"
+  "Введите пароль": "Введите пароль",
+  "authorizationForm": "Authorization form"
 }
