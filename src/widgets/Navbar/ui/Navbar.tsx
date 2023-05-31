@@ -27,12 +27,6 @@ export const Navbar = ({ className }: NavbarProps) => {
     dispatch(userActions.logout());
   }, [dispatch]);
 
-  useEffect(() => {
-    if (isAuth) {
-      setIsAuthModal(false);
-    }
-  }, [isAuth]);
-
   if (isAuth) {
     return (
       <div className={classNames(cls.Navbar, {}, [className])}>

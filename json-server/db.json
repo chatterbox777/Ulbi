@@ -25,5 +25,14 @@
       "password": "123"
     }
   ],
-  "profile": { "name": "typicode" }
+  "profile": {
+    "first": "Тимур",
+    "lastname": "Павлов",
+    "age": "28",
+    "currency": "RUB",
+    "country": "Russia",
+    "city": "Krasnodar",
+    "username": "chatterbox",
+    "avatar": "https://cspromogame.ru//storage/upload_images/avatars/3958.jpg"
+  }
 }
