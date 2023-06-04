@@ -3,7 +3,7 @@
   color: var(--primary-color);
 }
 
-.title {
+.text {
   font: var(--font-m);
   color: var(--secondary-color);
 }
@@ -12,7 +12,20 @@
   .title {
     color: var(--red-light);
   }
+
   .text {
     color: var(--red-dark);
   }
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+.center {
+  text-align: center;
 }
