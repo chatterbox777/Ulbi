@@ -10,6 +10,7 @@ describe("getIsAuth", () => {
     ).toBe(true);
   });
   test("getIsAuth return false if authData doesn't exist", () => {
+    //@ts-ignore
     expect(getIsAuth({ user: { authData: null } } as StateSchema)).toBe(false);
   });
 });
